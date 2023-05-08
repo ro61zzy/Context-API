@@ -1,4 +1,25 @@
+.form{
+  padding: 20% 2px 2px 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.form input{
+  padding: 9px;
+  border-radius: 10px;
+}
+.user{
+  color: #fff;
+}
 .App {
+  background-color: rgb(3, 51, 3);
+  height: 80vh;
+}
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +56,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
